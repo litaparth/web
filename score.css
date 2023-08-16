@@ -1,0 +1,259 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+
+
+.home2{
+    position:absolute;
+    color: #FFFFFF;
+    bottom:0px;
+    background:#42dbb9 ;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    margin-bottom: 0px;
+    padding: 0px;
+    
+
+  
+}
+.id{
+    font-size: 22px;
+}
+
+
+.line{
+height: 6px;
+background-color: #000;
+width: 70px;
+margin: 8px auto ;
+}
+.hr{
+    margin-top: 500px;
+   
+    
+}
+
+
+.eweb{
+    float: right;
+    margin-right: 25px;
+   
+}
+.fweb{
+    float:left;
+    margin-left: 150px;
+   
+    
+}
+.hweb{
+ float: left;
+ text-align: center;
+ margin-left: 50px;
+ 
+}
+.im{
+    height: 150px;
+    width: 150px;
+    
+}
+.hi{
+    height: 150px;
+    width:150px ;
+}
+.ey{
+    height: 150px;
+    width: 150px;
+}
+.li{
+    font-family: simplifica;
+}
+.fev{
+    font-family: simplifica;
+}
+.heart{
+    font-family: simplifica;
+}
+
+
+
+.i{
+    float: left;
+    text-align: center;
+    width:300px;
+    height:400px;
+    background-color:#00BCFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    margin-left: 20px;
+    
+}
+.fc{
+    background-color:#FFABAD;
+    border-radius: 50px;
+    height: 35px;
+    font-family:simplifica ;
+}
+
+
+.eye_report{
+    float:right;
+    text-align: center;
+    width:300px;
+    height:400px;
+    background-color:#00BCFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:rgb(1, 27, 1) ; padding-top: 10px;
+    margin-right: 20px;
+    
+}
+.fever_report{
+    float: left;
+    text-align: center;
+    width:300px;
+    height:400px;
+    background-color:#00BCFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    margin-left: 120px;
+}
+
+
+.logo{
+    padding-top: 50px;
+    width:550px;
+    height: 250px;
+    
+  
+}
+
+
+h1 {
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+    
+
+}
+
+
+
+h2 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: monospace;
+    
+}
+
+p {
+    font-size: 17px;
+    
+}
+
+
+
+
+.menu {
+    position: fixed;
+    background-color:#00BCFF;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+    z-index: 10;
+    
+    
+    
+  
+    
+   
+    
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+
+    
+    
+}
+.ins{
+    font-family:simplifica;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    font-family:simplifica;
+    font-weight:bold;
+    
+}
+
+.article:hover {
+    color:fuchsia;
+}
+
+.co_im{
+   float: left;
+   margin-top: 100px;
+   border-radius: 50%;
+   border:2px solid red;
+   
+   
+
+}
+
+
+.c{
+    margin-top:550px ;
+    font-family: simplifica;
+    font-size:xx-large;
+    font-weight: 400;
+    color:rgb(0, 0, 0);
+    background-color:#00bcff;
+    height:325px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.heart{
+    color:rgb(1, 27, 1) ; color:rgb(1, 27, 1) ;
+}
+.fev{
+    color: white;
+}
+.h{
+    color:rgb(1, 27, 1) ;
+}
+.f{
+    color: white; 
+}
+.symptom{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+

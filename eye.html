@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title> Know your health </title>
+    <link rel="stylesheet" href="eye.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+   
+
+
+   
+    </head>
+    <body class="body">
+        <div class="head">
+<h1 class="h1">Opthamological Questionaire</h1>
+</div>
+<h2 for="symptom1" >1.Do you have blurr vision?  <input type="checkbox" id="symptom1"><br></h2>
+
+
+<h2 for="symptom2" hidden id="s2" >2.Do you experience eye redness? <input type="checkbox" id="symptom2"></h2>
+
+
+
+
+
+<h2 for="symptom3" hidden id="s3">3.Do you experience headache?  <input type="checkbox" id="symptom3"><br></h2>
+
+
+<h2 for="symptom4" hidden id="s4">4.Can you see 6 feet away? <input type="checkbox" id="symptom4"><br></h2>
+
+
+<h2 for="symptom5" hidden id="s5">Do you experience eye itching? <input type="checkbox" id="symptom5"><br></h2>
+
+
+
+
+
+
+
+
+
+
+
+<button class="b1" onclick="back()"><img src="WhatsApp Image 2023-08-13 at 6.14.36 PM.jpeg"></button>
+<br>
+<button class="b2" onclick="checkSymptoms()">Results</button>
+<h2 class="" id="result"></h2>
+
+<script>
+function checkSymptoms() {
+    const symptom1 = document.getElementById('symptom1').checked;
+    const symptom2 = document.getElementById('symptom2').checked;
+    const symptom3 = document.getElementById('symptom3').checked;
+    const symptom4 = document.getElementById('symptom4').checked;
+    const symptom5 = document.getElementById('symptom5').checked;
+
+    if (symptom1){ 
+       result= document.getElementById("s2").hidden="";
+       result= document.getElementById("s3").hidden="";
+       result= document.getElementById("s4").hidden="";
+       result= document.getElementById("s5").hidden="";
+    }
+  
+    else{
+        result= document.getElementById("s2").hidden="";
+       result= document.getElementById("s3").hidden=""; 
+       result=" You are healthy,You are wealthy😀💖💖 ";
+       
+
+    }
+    if (symptom1){ result='You probably need to visit a doctor';}  
+    
+    if (symptom3) { result='You do not need to visit a doctor.';}
+    if (symptom4) { result='You do not need to visit a doctor.';}
+    if (symptom2) { result='You do not need to visit a doctor.';}
+    if (symptom1 && symptom2){ result='You need to visit a doctor.';}
+    if (symptom1 && symptom3){ result='You need to visit a doctor.';}
+    if (symptom1 && symptom4){ result='You need to visit a doctor.';}
+    if (symptom1 && symptom5){ result='You need to visit a doctor.';}
+    if (symptom2 && symptom3){ result='You need to visit a doctor.';}
+    if (symptom2 && symptom4){ result='You need to visit a doctor.';}
+    if (symptom2 && symptom5){ result='You need to visit a doctor.';}
+    if (symptom3 && symptom4){ result='You need to visit a doctor.';}
+    if (symptom3 && symptom5){ result='You need to visit a doctor.';}
+    if (symptom4 && symptom5){ result='You need to visit a doctor.';}
+    if (symptom1 && symptom2 && symptom3){result="You need to visit a doctor";}
+    if (symptom1 && symptom2 && symptom4){result="You need to visit a doctor";}
+    if (symptom1 && symptom2 && symptom5){result="You need to visit a doctor";}
+    if (symptom1 && symptom3 && symptom4){result="You need to visit a doctor";}
+    if (symptom1 && symptom3 && symptom5){result="You need to visit a doctor";}
+    if (symptom1 && symptom4 && symptom5){result="You need to visit a doctor";}
+    if (symptom2 && symptom3 && symptom4){result="You need to visit a doctor";}
+    if (symptom2 && symptom3 && symptom5){result="You need to visit a doctor";}
+    if (symptom2 && symptom4 && symptom5){result="You need to visit a doctor";}
+    if (symptom3 && symptom4 && symptom5){result="You need to visit a doctor";}
+    if (symptom1 && symptom2 && symptom3 && symptom4){ result = 'You  need to visit a hospital.';}
+    if (symptom1 && symptom2 && symptom3 && symptom5){ result = 'You  need to visit a hospital.';}
+    if (symptom1 && symptom3 && symptom4 && symptom5){ result = 'You  need to visit a hospital.';}
+    if (symptom1 && symptom2 && symptom3 && symptom4 && symptom5){ result = 'You  need to visit a hospital.';}
+    if (symptom2 && symptom3 && symptom4 && symptom5){ result = 'You  need to visit a hospital.';}
+
+
+
+    
+   
+    document.getElementById('result').textContent = result;
+}
+function back(){
+    window.location="score.html";
+ }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+    </body>
+</html>
+      

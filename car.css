@@ -1,0 +1,57 @@
+.head{
+    text-align: start;
+
+    margin-top: 0px;
+
+}
+#result{
+    color: rgb(255, 41, 41);
+}
+.h1{
+    text-align: center;
+}
+.body{
+    background-color: #FFCE32;
+}
+.label{
+    font-size: 2000px;
+}
+.b1{
+    float: right;
+    height: 150px;
+    width: 150px;
+
+    
+  
+}
+#s1{
+    color: #1D63FF;
+}
+#s2{
+    color: #1D63FF;
+}
+#s3{
+    color: #1D63FF;
+}
+#s3{
+    color: #1D63FF;
+}
+#s4{
+    color: #1D63FF;
+}
+#s5{
+    color: #1D63FF;
+}
+.h1{
+    color: #1D63FF;
+}
+
+
+.b2{
+    background-color: #1D63FF;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    font-weight: 800;
+    color: white;
+}
